@@ -1,0 +1,88 @@
+/* 
+    Document   : estilo_tabla
+    Created on : 25/01/2014, 03:23:34 PM
+    Author     : hernando
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table { 
+	background:#F0F8FF;
+	border:1px solid gray;
+	border-collapse:collapse;
+	color:#fff;
+	/*font:normal 12px arial, helvetica, sans-serif;
+        font-family: Arial;*/
+        margin: auto;
+	}
+
+caption { 
+		border:1px solid #5C443A;
+		color:#5C443A;
+		font-weight:bold;
+		letter-spacing:20px;
+		padding:6px 4px 8px 0px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+
+td, th { 
+	color:#363636;
+	padding:.4em;
+	}
+
+tr { border:1px dotted gray;}
+
+thead th, tfoot th { 
+			/*background:seagreen;*/
+                        background: CornflowerBlue;
+			color:#000;
+			padding:3px 10px 3px 10px;
+			text-align:left;
+			text-transform:uppercase;
+		}
+
+tbody td a { 
+		color:#363636;
+		text-decoration:none;}
+
+tbody td a:visited {
+			color:gray;
+			text-decoration:line-through;}
+
+tbody td a:hover { text-decoration:underline;}
+
+
+tbody th a { 
+		color:#363636;
+		font-weight:normal;
+		text-decoration:none;
+		}
+tbody th a:hover { color:#363636;}
+
+
+tbody th, tbody td { 
+			text-align:left;
+			vertical-align:top;
+			}
+
+
+tfoot td { 
+		background:CornflowerBlue;
+		color:#FFFFFF;
+		padding-top:3px;
+}
+
+.odd { background:#fff;}
+
+tbody tr:hover { 
+			background:#dff0d8;
+			border:1px solid #03476F;
+			color:#000000;
+		}
+a:hover {color:#38C3FF;}  /* mouse over link */
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+

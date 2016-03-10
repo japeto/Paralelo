@@ -1,0 +1,72 @@
+.d3-tip {
+  line-height: 1;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  /*box-sizing: border-box;*/
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  /*content: "\25BC";*/
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node-single {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.node-active{
+  stroke: #555;
+  stroke-width: 1.5px;
+}
+
+.node-label {
+    font: 10px sans-serif;
+    color: #fff
+}
+.node-inner  {
+    fill: white;
+    stroke: gray;
+}
+.bubble-inner  {
+    fill: steelblue;
+    stroke: gray;
+    stroke-width: 2px
+}
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 3px;
+}
+
+.radial-progress-backround {
+    fill: steelblue;
+}
+
+.radial-progress-outter {
+    fill: orange;
+}
+
+.radial-progress-inner {
+    fill: #0F0;
+}

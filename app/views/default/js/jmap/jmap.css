@@ -1,0 +1,347 @@
+/*********************************************************************************/
+/* Global                                                                        */
+/*********************************************************************************/
+
+/* Basic */
+/*var colors = ['#1f77b4', '#aec7e8', '#ff7f0e', '#ffbb78', '#2ca02c', '#98df8a', '#d62728', '#ff9896', '#9467bd', '#c5b0d5', '#8c564b', '#c49c94', '#e377c2', '#f7b6d2', '#7f7f7f', '#c7c7c7', '#bcbd22', '#dbdb8d', '#17becf', '#9edae5'];*/
+
+.mpio{
+  fill: #5086a9;
+	/*fill: #ddc;*/
+  cursor: pointer;
+}
+.mpio:hover{
+  fill: #5e78e0;
+  /*fill: #ccccbb;*/
+  cursor: pointer;
+}
+.bubble {
+  fill-opacity: .5;
+  stroke: #fff;
+  stroke-width: .5px;
+  fill:none;
+}
+/******CALI******/
+.mpio._CALI{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._CALI:hover{ 
+	fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.Univalle_Melendez {
+  fill:#222;
+}
+.bubble.Univalle_Melendez:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+.bubble.Univalle_San_Fernando {
+  fill:#222;
+}
+.bubble.Univalle_San_Fernando:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+.bubble.U_Santiago {
+  fill:#222;
+}
+.bubble.U_Santiago:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+.bubble.U_Javeriana {
+  fill:#222;
+}
+.bubble.U_Javeriana:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+
+/******BUENAVENTURA******/
+.mpio._BUENAVENTURA{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._BUENAVENTURA:hover{ 
+  fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.BUENAVENTURA {
+  fill:#222;
+}
+.bubble.BUENAVENTURA:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+/******YUMBO******/
+.mpio._YUMBO{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._YUMBO:hover{ 
+  fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.YUMBO {
+  fill:#222;
+}
+.bubble.YUMBO:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+
+/******PALMIRA******/
+.mpio._PALMIRA{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._PALMIRA:hover{ 
+  fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.PALMIRA {
+  fill:#222;
+}
+.bubble.PALMIRA:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+
+/******BUGA******/
+.mpio._BUGA{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._BUGA:hover{ 
+  fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.BUGA {
+  fill:#222;
+}
+.bubble.BUGA:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+/******TULUA******/
+.mpio._TULUA{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._TULUA:hover{ 
+  fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.TULUA {
+  fill:#222;
+}
+.bubble.TULUA:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+
+/******ZARZAL******/
+.mpio._ZARZAL{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._ZARZAL:hover{ 
+  fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.ZARZAL {
+  fill:#222;
+}
+.bubble.ZARZAL:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+/******CAICEDONIA******/
+.mpio._CAICEDONIA{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._CAICEDONIA:hover{ 
+  fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.CAICEDONIA {
+  fill:#222;
+}
+.bubble.CAICEDONIA:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+/******CARTAGO******/
+.mpio._CARTAGO{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._CARTAGO:hover{ 
+  fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.CARTAGO {
+  fill:#222;
+}
+.bubble.CARTAGO:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+/******SANTANDER******/
+.mpio._SANTANDER{ 
+  fill: #7ebfde;
+  /*fill: #ccccbb;*/
+}
+.mpio._SANTANDER:hover{ 
+  fill: #a5ce27;
+  /*fill: #dcd;*/
+}
+.bubble.SANTANDER {
+  fill:#222;
+}
+.bubble.SANTANDER:hover{ 
+  fill-opacity: 4;
+  fill:#dcd;
+  stroke: #000;
+}
+
+/**#############################**/
+/*.mpio._76736{ 
+  fill: #2b597f;
+}
+.mpio._76736:hover{
+  fill: #5e78e0;
+}
+.mpio._76828{ 
+  fill: #2b597f;
+}
+.mpio._76828:hover{
+  fill: #5e78e0;
+}
+
+.mpio._76563{ 
+  fill: #2b597f;
+}
+.mpio._76563:hover{ 
+  fill: #5e78e0;
+}
+
+.mpio._76318{ 
+  fill: #619bbb;
+}
+.mpio._76318:hover{ 
+  fill: #5e78e0;
+}
+.mpio._76606{ 
+  fill: #619bbb;
+}
+.mpio._76606:hover{ 
+  fill: #5e78e0;
+}
+
+.mpio._19075{ 
+  fill: #619bbb;
+}
+.mpio._19075:hover{ 
+  fill: #5e78e0;
+}
+.mpio._76890{ 
+  fill: #73b2d1;
+}
+.mpio._76890:hover{ 
+  fill: #5e78e0;
+}
+
+.mpio._19807{ 
+  fill: #619bbb;
+}
+.mpio._19807:hover{ 
+  fill: #5e78e0;
+}
+
+.mpio._19824{ 
+  fill: #619bbb;
+}
+.mpio._19824:hover{ 
+  fill: #5e78e0;
+}*/
+
+.mpio-borde {
+/*  fill: none;
+  stroke: #555;
+  stroke-linejoin: round;
+  stroke-width: 0.9;*/
+  fill: none;
+  stroke: #222;
+  stroke-dasharray: 2,2;
+  stroke-linejoin: round;
+}
+.mpio.active {
+  fill: #619bbb;
+}
+.mpio.active:hover {
+  fill: #619bbb;
+}
+
+path:hover {
+  /*fill: #060;*/
+}
+
+.deptoborde {
+  fill: none;
+  stroke: #000;
+  stroke-linejoin: round;
+  stroke-width: 2.8;
+}
+
+div.tooltip {
+
+    position: absolute;     /* reference for measurement */
+    text-align: center;
+    pointer-events: none;     /* 'none' tells the mouse to ignore the rectangle */
+    background: #FFFFEF;
+    padding: 1%;
+    border: 1px solid #D5D5D5;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 70%;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.9);
+    color: #000;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+    /*border:1px solid rgba(200,200,200,0.85);  */
+}
+
+.graticule {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3px;
+  }
+
+.graticule :nth-child(2n) {
+  stroke-dasharray: 2,9;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>indice_encuestas.php</url>
+            <bookmark id="1">
+                <name/>
+                <line>14</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/sfprojects/tramas/app/views/default/modules/encuestas/editar_pregunta.php</file>
+            <file>file:/home/sfprojects/tramas/indice_encuestas.php</file>
+            <file>file:/home/sfprojects/tramas/app/model/encuesta.class.php</file>
+            <file>file:/home/sfprojects/tramas/app/controller/mvc.controller_encuesta.php</file>
+            <file>file:/home/sfprojects/tramas/app/views/default/js/encuestas_editar_preguntas.js</file>
+            <file>file:/home/sfprojects/tramas/app/model/db.class.php</file>
+        </group>
+    </open-files>
+</project-private>
